@@ -7,12 +7,16 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 
+using ToDo.Core;
+
 namespace ToDo.Web
 {
     public class Program
     {
         public static void Main(string[] args)
         {
+            var @class = new Class1();
+
             var config = new ConfigurationBuilder()
                 .AddCommandLine(args)
                 .AddEnvironmentVariables(prefix: "ASPNETCORE_")
