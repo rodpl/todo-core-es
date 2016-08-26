@@ -16,6 +16,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ToDo.Core.UnitTests", "test
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AF56481E-41AD-40B9-B8BD-D67B848DB430}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ToDo.Web.LoadTests", "test\ToDo.Web.LoadTests\ToDo.Web.LoadTests.pyproj", "{809BACC7-42D5-4DDF-BD38-53D8C820BDC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,11 +36,14 @@ Global
 		{373968EE-6662-4056-AD72-FDEC5F468DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{373968EE-6662-4056-AD72-FDEC5F468DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{373968EE-6662-4056-AD72-FDEC5F468DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809BACC7-42D5-4DDF-BD38-53D8C820BDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809BACC7-42D5-4DDF-BD38-53D8C820BDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{373968EE-6662-4056-AD72-FDEC5F468DD1} = {AF56481E-41AD-40B9-B8BD-D67B848DB430}
+		{809BACC7-42D5-4DDF-BD38-53D8C820BDC0} = {AF56481E-41AD-40B9-B8BD-D67B848DB430}
 	EndGlobalSection
 EndGlobal
